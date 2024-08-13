@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('photos/hero.jpg') no-repeat center center;
+            background-size: cover;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .intro {
+            padding: 40px 0;
+            text-align: center;
+        }
+        .featured-news .card {
+            margin-bottom: 20px;
+        }
+        .recent-updates .card {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center; /* Center vertically */
+            margin-bottom: 0; /* Remove bottom margin */
+        }
+        .sidebar img {
+            width: 150px; /* Fixed width to ensure square frame */
+            height: 200px; /* Fixed height to ensure square frame */
+            object-fit: cover; /* Ensures the image covers the entire frame */
+            border-radius: 10px; /* Optional: rounded corners for the frame */
+            margin-right: 20px; /* Space between image and text */
+        }
+        .sidebar h2 {
+            margin: 0; /* Remove default margin */
+        }
+        .web-developer {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff; /* Change color to your preference */
+            margin-bottom: 10px; /* Space below heading */
+        }
+        .sidebar p {
+            margin: 0; /* Remove default margin */
+        }
+        .no-gap {
+            margin-bottom: 0 !important; /* Remove margin at the bottom */
+            padding-bottom: 0 !important; /* Remove padding at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- Picture and Text Section Spanning All 12 Columns -->
+        <div class="row no-gap">
+            <div class="col-12 d-flex align-items-center">
+                <div class="sidebar">
+                    <img src="photos/PMC.jpeg" alt="Your Picture">
+                    <div>
+                        <h2>P.Manish Choudhary</h2>
+                        <h3 class="web-developer">Web Developer</h3>
+                        <p>Welcome to my news website, where the world of information unfolds in the most engaging and interactive way. As a passionate web developer, I've crafted this platform to bring you not just news, but a dynamic experience filled with insightful articles, real-time updates, and a user-friendly interface. Dive into a sea of well-curated content that caters to all your interests, from breaking news and in-depth analyses to trending topics and exclusive features. Whether you're here to stay informed or simply explore, you'll find a seamless blend of style and substance. Stay connected, stay informed, and enjoy a top-notch news experience like never before!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="row no-gap">
+            <div class="col-12">
+                <div class="hero">
+                    <h1>Welcome to The News</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h2>Latest News & Updates</h2>
+            <p>Stay updated with the latest headlines and top stories from around the world.</p>
+        </div>
+
+        <div class="row featured-news">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/home1.jpeg" class="card-img-top" alt="Featured News 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bangladesh in chaos: Top officials forced out of office, Hindus protest attacks.</h5>
+                        <p class="card-text">Bangladesh continues to grapple with widespread unrest as student protests force key officials to resign and minority communities, including Hindus, demand protection in the face of targeted violence.</p>
+                        <a href="https://www.indiatoday.in/world/story/bangladesh-hindus-minorities-protest-attacks-violence-top-officials-forced-resign-law-and-order-muhammad-yunus-2580495-2024-08-11" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/home3.jpeg" class="card-img-top" alt="Featured News 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Slum tourism is a hit in Delhi, Mumbai, Bengaluru. But at what cost?</h5>
+                        <p class="card-text">Slum tourism involves guided tours that showcase the living conditions, daily lives, and challenges faced by the residents of these areas.</p>
+                        <a href="https://www.indiatoday.in/lifestyle/travel/story/slum-tourism-is-a-hit-in-delhi-mumbai-bengaluru-but-at-what-cost-2578918-2024-08-11?onetap=true" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/home2.jpeg" class="card-img-top" alt="Featured News 3">
+                    <div class="card-body">
+                        <h5 class="card-title">How cyber crooks are tapping your fears to hijack your brain</h5>
+                        <p class="card-text">Forget phishing, a whole new generation of cybercrooks is here. With a mix of online and phone calls, they make people follow their commands, at times for days, and empty out their bank accounts. Here's all about scams like digital arrest and how to avert being defrauded.</p>
+                        <a href="https://www.indiatoday.in/sunday-special/story/digital-arrest-cyber-scam-fraud-crime-delhi-police-people-slaves-money-transfer-what-to-do-psychology-avoid-2579675-2024-08-11" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row recent-updates">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="photos/home4.jpeg" class="card-img-top" alt="Recent Update 1">
+                    <div class="card-body">
+                        <h5 class="card-title">UK 'dine and dash' couple flaunts Rs 12,000 meal on Facebook, ditches bill.</h5>
+                        <p class="card-text">A British couple has been accused of leaving a restaurant without paying a £120 bill (approximately Rs 12,000) after enjoying a lavish meal and posting photos of it on Facebook.</p>
+                        <a href="https://www.indiatoday.in/world" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="photos/home5.jpeg" class="card-img-top" alt="Recent Update 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Hurun India ranks Ambani family as most valuable, surpassing 10% of India's GDP</h5>
+                        <p class="card-text">Reliance Industries Limited, led by Mukesh Ambani, has an estimated value of $309 billion (Rs 25.75 lakh crore), which represents about 10% of India's Gross Domestic Product (GDP).</p>
+                        <a href="https://www.indiatoday.in/business/story/hurun-india-most-valuable-family-list-2024-ambanis-top-surpassing-10-per-cent-of-indias-gdp-2579875-2024-08-09" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 The News. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

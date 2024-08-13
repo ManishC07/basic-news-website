@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .headline {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .article-img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover;
+        }
+        .article-row {
+            margin-bottom: 20px;
+        }
+        .article-row .col-md-3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .article-row .col-md-9 {
+            display: flex;
+            flex-direction: column;
+        }
+        .article-row .col-md-9 h4 {
+            margin-bottom: 10px;
+        }
+        .article-row .col-md-9 p {
+            margin-bottom: 20px;
+        }
+        .article-row .col-md-9 .btn {
+            margin-top: auto; /* Pushes the button to the bottom */
+        }
+        .article-row .col-md-9 .text-left {
+            text-align: left; /* Aligns button to the left */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h2 class="headline">Headlines</h2>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <!-- Row 1 of Cards -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/news1.jpeg" class="card-img" alt="Article Title 1">
+                    <div class="card-body">
+                        <h5 class="card-title">In pics: PM Modi visits Wayanad, surveys landslide damage and meets survivors</h5>
+                        <p class="card-text">PM Modi visited Wayanad’s landslide-hit areas on Saturday, trekking through Chooralmala to witness the devastation caused by the July 30 landslides firsthand.</p>
+                        <a href="https://www.hindustantimes.com/photos/news/in-pics-pm-modi-visits-wayanad-surveys-landslide-damage-and-meets-survivors-101723287198108.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/news2.jpeg" class="card-img" alt="Article Title 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris Olympics 2024, Day 14: Catch all the action from the Summer Games through these images</h5>
+                        <p class="card-text">Aman Sehrawat took India's medal tally in Paris to six by winning bronze in men's 57kg freestyle. Aman is the youngest Indian to win an Olympic medal.</p>
+                        <a href="https://www.hindustantimes.com/photos/sports/paris-olympics-2024-day-14-catch-all-the-action-from-the-summer-games-through-these-images-101723231200731.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/news3.jpeg" class="card-img" alt="Article Title 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Adani Group's first reaction to new Hindenburg attack: ‘Malicious, mischievous’.</h5>
+                        <p class="card-text">Adani-Hindenburg saga: The conglomerate accused the firm of arriving at pre-determined conclusions for "personal profiteering'.</p>
+                        <a href="https://www.hindustantimes.com/india-news" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Row 2 of Cards -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/news4.jpeg" class="card-img" alt="Article Title 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamala Harris overtakes Donald Trump in six different polling averages.</h5>
+                        <p class="card-text">A major shift in the race as the 2024 election draws closer. The Democratic nominee as of Saturday surged in three key battleground states: Pennsylvania, Michigan, and Wisconsin, where voter sentiment has dramatically swung in her favor.</p>
+                        <a href="https://www.hindustantimes.com/world-news/us-news/kamala-harris-overtakes-donald-trump-in-six-different-polling-averages-across-three-key-states-101723354744840.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/news5.jpeg" class="card-img" alt="Article Title 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Mumbai Weather and AQI Today: Warm start at 26.99 °C, check weather forecast for August 11, 2024.</h5>
+                        <p class="card-text">The temperature in Mumbai today, on August 11, 2024, is 27.91 °C. The day's forecast indicates a minimum and maximum temperature of 26.99 °C and 28.53 °C, respectively. The relative humidity is 79% and the wind speed is 79 km/h. The sun rose at 06:18 AM and will set at 07:09 PM.</p>
+                        <a href="https://www.hindustantimes.com/cities/mumbai-news/mumbai-weather-today-aqi-and-rain-forecast-updates-august-11-2024-101723339821290.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="photos/news6.jpeg" class="card-img" alt="Article Title 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Karthik's honest remark on Virat Kohli's struggles vs spin during Sri Lanka series: ‘Not going to defend him, but…’</h5>
+                        <p class="card-text">Team India endured a difficult outing in the ODI series against Sri Lanka. The side lost the series 0-2, the first against Sri Lanka in ODI bilaterals since 1997. Moreover, all three games saw Indian batters struggling significantly against spin bowling.</p>
+                        <a href="https://www.hindustantimes.com/cricket/karthiks-honest-remark-on-virat-kohlis-struggles-vs-spin-during-sri-lanka-series-not-going-to-defend-him-but-101723298555470.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row article-row">
+            <!-- Article Row 1 -->
+            <div class="col-md-3 mb-4">
+                <img src="photos/news7.jpeg" class="article-img" alt="Article Title 7">
+            </div>
+            <div class="col-md-9 mb-4">
+                <div class="text-left">
+                    <h4>UGC NET 2024 Admit Card Live: NTA UGC NET hall tickets, exam city releasing soon.</h4>
+                    <p>UGC NET 2024 Admit Card Live: National Testing Agency, NTA will release the UGC NET 2024 Admit Card likely soon. The NTA UGC NET hall tickets will be available to all the candidates appearing for the examination from the official website of NTA UGC NET at ugcnet.nta.ac.in. The admit card link will also be available here once it is released.</p>
+                    <a href="https://www.hindustantimes.com/education/competitive-exams/ugc-net-2024-admit-card-live-nta-ugc-net-june-hall-tickets-exam-city-direct-link-how-to-download-at-ugcnetntaacin-101723265121436.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="row article-row">
+            <!-- Article Row 2 -->
+            <div class="col-md-3 mb-4">
+                <img src="photos/news8.jpeg" class="article-img" alt="Article Title 8">
+            </div>
+            <div class="col-md-9 mb-4">
+                <div class="text-left">
+                    <h4>IOA sparks confusion over CAS' verdict on Vinesh Phogat's Olympic silver medal plea: Announcement on August 11 or 13?</h4>
+                    <p>Not just Vinesh Phogat herself, but the whole of India awaited the verdict on Saturday from the ad-hoc division of the Court of Arbitration for Sport (CAS) on the plea for a joint silver medal. However, the committee deferred the announcement, saying they would require more time to deliberate on the Indian wrestler's appeal against her disqualification from the women's 50kg freestyle final at the 2024 Paris Olympics.</p>
+                    <a href="https://www.hindustantimes.com/sports/olympics/ioa-sparks-confusion-over-cas-verdict-on-vinesh-phogat-olympic-silver-medal-plea-announcement-on-august-11-or-13-101723339506825.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
